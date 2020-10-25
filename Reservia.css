@@ -112,6 +112,10 @@ input
     display: flex;
     margin-top: 20px;
 }
+span
+{
+    font-family:'Raleway', sans-serif;
+}
 #hebergements
 {
     width: 600px;

@@ -1,0 +1,265 @@
+
+
+body
+{
+    font-family: Arial,Serif;
+}
+#bloc_page
+{
+    width:980px;
+    height: auto;
+    margin: auto;
+}
+a
+{
+    color: #181818;
+   text-decoration: none;
+    font-size: 0.8em;
+}
+a:hover
+{
+    color: #0000cc;
+}
+header div
+{
+    display: flex;
+    flex-direction: row;
+}
+#logo img
+{
+    width: 120px;
+    height: 60px;
+}
+nav ul
+{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+
+}
+ul li
+{
+    padding: 30px;
+}
+nav
+{
+    position: relative;
+    left: 420px;
+}
+/*Rechercher*/
+#rechercher
+{
+    display: flex;
+    margin-left: 20px;
+}
+#rechercher i{
+    border: 1px solid #F2F2F2;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color:#F2F2F2;
+    border-radius: 20px 0px 0px 20px;
+}
+#rechercher select
+{
+    border:1px solid #F2F2F2;
+}
+input
+{
+    border: 1px solid midnightblue;
+    border-radius: 0 50px 50px 0;
+    background-color:midnightblue ;
+    color: #DEEBFF;
+}
+/* Filtres*/
+#filtres
+{
+    display: flex;
+    font-size: 1em;
+    font-weight: bold;
+    color: #181818;
+    padding:20px;
+}
+#filtres i
+{
+    background-color:#DEEBFF;
+    border: 1px solid  #DEEBFF;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    color: midnightblue;
+    padding-top: 5px;
+}
+#filtres div
+{
+    margin-left: 30px;
+    border-radius: 50px;
+    border: 1px solid #DEEBFF;
+    padding-right: 20px;
+}
+.fal fa-info-circle
+{
+    background-color: #DEEBFF;
+    border-radius: 50%;
+    color: midnightblue;
+}
+/* Hébergements à Marseille*/
+#container
+{
+    display: flex;
+    margin-top: 20px;
+}
+#hebergements
+{
+    width: 600px;
+    height: auto;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    font-size: 0.8em;
+
+
+}
+.image_hebergements
+{
+    background-color:white;
+    margin-top: 10px;
+    border: 3px solid white;
+}
+#hebergements img
+{
+    width: 170px;
+    height: 100px;
+    border-radius: 20px 20px 0px 0px;
+}
+#hebergements div
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    border-radius: 20px 20px 0px 0px;
+    padding-bottom: 10px;
+
+}
+#container i
+{
+    color: midnightblue;
+}
+.fas fa-euro-sign
+{
+    color: #181818;
+}
+#hebergements h3:last-child
+{
+    padding: 20px;
+    font-size: 1em;
+}
+
+#populaires
+{
+    width: 300px;
+    height: auto;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    font-size: 0.8em;
+    margin-left: 30px;
+    padding-left: 30px;
+}
+#titre_populaires
+{
+    display: flex;
+
+}
+#titre_populaires i
+{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.images_populaires
+{
+    display: flex;
+    margin-top: 20px;
+    border-radius: 20px 0px 0px 20px;
+    border: 3px solid white;
+    border-radius: 20px;
+    background-color: white;
+    padding-right: 30px;
+}
+#image_populaires
+{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#populaires img
+{
+    width: 120px;
+    height: 120px;
+    padding-right: 5px;
+    border-radius: 20px 0px 0px 20px;
+}
+aside
+{
+    width: 980px;
+    height: auto;
+    padding-top: 20px;
+}
+#activites
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+#activites div
+{
+    padding-left: 20px;
+}
+
+.images_activites img
+{
+    width: 220px;
+    height: 280px;
+    border-radius: 20px 20px 0px 0px;
+}
+#pomegues img
+{
+    width: 200px;
+    height: 110px;
+    border-radius: 20px 20px 0px 0px;
+}
+#frioul img
+{
+    width: 200px;
+    height: 90px;
+    padding-top: 20px;
+    border-radius: 20px 20px 0px 0px;
+}
+#garde img
+{
+    width: 200px;
+    height: 100px;
+    border-radius: 20px 20px 0px 0px;
+}
+#longchamp img
+{
+    width: 200px;
+    height: 100px;
+    padding-top: 20px;
+    border-radius: 20px 20px 0px 0px;
+}
+footer
+{
+    display: flex;
+}
+footer div
+{
+    margin-right: 80px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+
+
+

@@ -1,0 +1,38 @@
+@media screen and (max-width: 768px)
+{
+    #bloc_page
+    {
+        width: auto;
+    }
+    body {
+        font-size: 1.2em;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    nav ul:nth-child(2) {
+        order: 1;
+    }
+
+    h2 p {
+        overflow-x: scroll;
+    }
+    input
+    {
+
+    }
+    #filtres div
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+
+
+
+}

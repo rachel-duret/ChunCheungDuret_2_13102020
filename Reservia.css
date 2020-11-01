@@ -1,9 +1,7 @@
-@font-face {
 
-}
 body
 {
-    font-family: Arial,Serif;
+    font-family: 'Raleway', sans-serif;
 }
 body h2
 {
@@ -233,18 +231,19 @@ section i
 }
 #activites div
 {
-    margin-right:20px;
+
 
 }
 #activites img
 {
     border-radius: 20px 20px 0px 0px;
 }
-.group
+.group,#port,#calanques
 {
     display: flex;
     flex-direction:row;
     flex-wrap: nowrap;
+    margin-right: 40px;
 }
 #port,#pomegues,#frioul,#calanques,#garde,#longchamp
 {

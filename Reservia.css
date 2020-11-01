@@ -1,6 +1,17 @@
+@font-face {
+
+}
 body
 {
     font-family: Arial,Serif;
+}
+body h2
+{
+    font-size: 1.2em;
+}
+body h3
+{
+    font-size: 1em;
 }
 #bloc_page
 {
@@ -42,13 +53,15 @@ nav ul li
     padding-left: 40px;
     list-style-type: none;
 }
-header h2
-{
-    font-size: 1em;
-}
 header p
 {
     font-size: 0.8em;
+}
+#rechercher
+{
+
+    display: flex;
+    margin-left: 20px;
 }
 #rechercher i
 {
@@ -64,7 +77,8 @@ header p
 #rechercher select
 {
     border:1px solid #F2F2F2;
-    height: 30px;
+    width: auto;
+
 }
 #rechercher input
 {
@@ -72,8 +86,7 @@ header p
     border-radius: 0 50px 50px 0;
     background-color:midnightblue ;
     color: #DEEBFF;
-    height: 30px;
-    padding-top: 10px;
+
 
 }
 #filtres
@@ -86,6 +99,7 @@ header p
 {
     display: flex;
     flex-direction: row;
+    text-align: justify;
 }
 #categorie div
 {
@@ -136,10 +150,34 @@ header p
 }
 #hbg_imgs div
 {
-    margin-left: 10px;
+
     border-radius: 20px 20px 0px 0px;
     margin-bottom: 20px;
     background-color: white;
+}
+.imgs_container
+{
+    border: 3px solid white;
+    box-shadow: -1px 5px 10px rgba(0,0,0,0.4);
+    margin-right: 15px;
+}
+.description
+{
+    padding-left: 20px;
+}
+
+section i
+{
+    color: midnightblue;
+}
+.fa-euro-sign
+{
+    color: #181818;
+}
+
+.star i:last-of-type
+{
+    color:#706b64;
 }
 #populaires
 {
@@ -171,8 +209,9 @@ header p
     display: flex;
     margin-top: 20px;
     border-radius: 20px 0px 0px 20px;
+    box-shadow: -1px 5px 10px rgba(0,0,0,0.4);
     border: 3px solid white;
-    border-radius: 20px;
+
     background-color: white;
     padding-right: 30px;
 }
@@ -187,6 +226,10 @@ header p
 {
     display: flex;
     flex-direction: row;
+}
+#activites h3
+{
+    padding-left: 20px;
 }
 #activites div
 {
@@ -205,51 +248,58 @@ header p
 }
 #port,#pomegues,#frioul,#calanques,#garde,#longchamp
 {
-    border:3px solid rgba(128 128 128 0.3);
     border-radius: 20px 20px 0px 0px ;
+    box-shadow: -1px 5px 10px rgba(0,0,0,0.4);
 }
-#pomegues,#garde
-{
-    margin-bottom: 20px;
-}
-
 #port img,#calanques img
 {
     width: 220px;
     height: 280px;
 }
+#pomegues,#garde
+{
+    padding-bottom: 10px;
+}
+#frioul,#longchamp
+{
+   margin-top:20px ;
+    padding-bottom: 10px;
+    vertical-align: bottom;
+}
+
 #pomegues img
 {
     width: 200px;
-    height: 100px;
+    height: 110px;
 
 }
+
 #frioul img
 {
     width: 200px;
-    height: 80px;
-    padding-top: 20px;
+    height: 90px;
 
 }
 #garde img
 {
     width: 200px;
-    height: 90px;
+    height:90px;
 
 }
 #longchamp img
 {
     width: 200px;
-    height: 90px;
-    padding-top: 20px;
+    height: 110px;
+
 }
 footer
 {
     display: flex;
+    justify-content: space-between;
 }
 footer div
 {
-    margin-right: 100px;
+  margin-right: auto;
 
     padding-top: 20px;
 }
@@ -330,6 +380,10 @@ footer div
         flex-direction: column;
         margin:auto;
     }
+    .group
+    {
+        margin-bottom: 20px;
+    }
     #activites img
     {
         width: 100%;
@@ -386,14 +440,15 @@ footer div
     #hebergements
     {
         width: auto;
-        margin-left: auto;
         background-color: white;
     }
-    #hbg_imgs div
+    .imgs_container
     {
         width: auto;
         flex-direction: column;
-        border:2px solid #F2F2F2;
+        border: none;
+        margin-right: 20px;
+
     }
     #hbg_imgs img
     {
@@ -406,8 +461,7 @@ footer div
     {
         width: auto;
         flex-direction: column;
-        margin-bottom: 20px;
-        border-radius: 0px;
+
     }
     #ppl_imgs div
     {
@@ -428,7 +482,7 @@ footer div
     {
         width: auto;
         flex-direction: column;
-        margin-right: auto;
+        margin: 0px 20px;
     }
     .group
     {
@@ -443,13 +497,14 @@ footer div
     }
     #port,#pomegues,#frioul,#calanques,#garde,#longchamp
     {
-        border: 2px solid #F2F2F2;
+       box-shadow:-1px 5px 10px rgba(0,0,0,0.4) ;
         margin-top: 30px;
         width:100%;
     }
     footer
     {
         flex-direction: column;
+        margin-left: 20px;
     }
 
 

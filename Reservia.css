@@ -315,12 +315,13 @@ footer
 {
     display: flex;
     justify-content: space-between;
+    background-color: #F2F2F2;
+    margin-top: 20px;
 }
 footer div
 {
-  margin-right: auto;
-
-    padding-top: 20px;
+    margin-right: auto;
+    padding: 20px;
 }
 @media screen and (min-width: 414px) and (max-width: 768px)
 {
@@ -336,9 +337,7 @@ footer div
     }
     #menu
     {
-        flex-direction: row;
         flex-wrap: wrap;
-
     }
     nav
     {
@@ -348,6 +347,7 @@ footer div
     {
         flex-direction:row-reverse;
         font-size: 1.2em;
+        flex-wrap: wrap;
     }
     h2
     {
@@ -370,7 +370,8 @@ footer div
     }
     #hebergements
     {
-        width: auto;
+        width: 100%;
+        flex-wrap: wrap;
         margin-left: auto;
     }
     #hebergements img
@@ -379,9 +380,11 @@ footer div
     }
     #populaires
     {
-        width: auto;
+        width:auto;
         flex-direction: column;
         margin-bottom: 20px;
+
+
     }
     #ppl_imgs div
     {
@@ -420,17 +423,11 @@ footer div
     {
         width: auto;
     }
-    #menu
-    {
-        flex-wrap: wrap;
-
-    }
-
     nav
     {
         width: auto;
     }
-    ul li
+    nav ul
     {
         display: flex;
         flex-wrap: wrap;

@@ -21,7 +21,7 @@ a
 {
     color: #181818;
     text-decoration: none;
-    font-size: 0.8em;
+
 }
 a:hover
 {
@@ -43,13 +43,17 @@ nav
 }
 nav ul
 {
+
     display: flex;
     flex-direction: row;
 }
+
+
 nav ul li
 {
     padding-left: 40px;
     list-style-type: none;
+    font-weight: bolder;
 }
 header p
 {
@@ -81,7 +85,7 @@ header p
     padding-top: 10px;
     padding-left: 10px;
     color: white;
-    background-color:midnightblue;
+    background-color:#0065FC;
     border-radius:10px;
     visibility: hidden;
 }
@@ -93,9 +97,9 @@ header p
 }
 #rechercher input
 {
-    border: 1px solid midnightblue;
+    border: 1px solid #0065FC;
     border-radius: 0 50px 50px 0;
-    background-color:midnightblue ;
+    background-color:#0065FC ;
     color: #DEEBFF;
 
 
@@ -104,12 +108,17 @@ header p
 {
     display: flex;
     flex-direction: row;
-    margin-top: auto;
+    text-align: center;
+    align-items: center;
+}
+#filtres h3
+{
+    padding-top: 20px;
 }
 .fa-info-circle
 {
     display:inline-block;
-    color: midnightblue;
+    color: #0065FC;
     background-color:white;
 }
 #categorie
@@ -117,6 +126,7 @@ header p
     display: flex;
     flex-direction: row;
     text-align: justify;
+    font-weight: bolder;
 }
 #categorie div
 {
@@ -128,7 +138,7 @@ header p
 }
 #categorie i
 {
-    color: midnightblue;
+    color: #0065FC;
     background-color:#DEEBFF;
     width: 30px;
     height: 30px;
@@ -136,11 +146,15 @@ header p
     padding-top: 10px;
     padding-left: 10px;
 }
-#container
-{
+#container {
     display: flex;
     flex-direction: row;
 }
+#container h3
+{
+    font-weight: bolder;
+}
+
 #hebergements
 {
     width: 600px;
@@ -182,10 +196,15 @@ header p
 {
     padding-left: 20px;
 }
+#afficher-plus
+{
+    margin-left: 20px;
+}
+
 
 section i
 {
-    color: midnightblue;
+    color: #0065FC;
 }
 .fa-euro-sign
 {
@@ -194,7 +213,7 @@ section i
 
 .star i:last-of-type
 {
-    color:#706b64;
+    color:#F2F2F2;
 }
 #populaires
 {
@@ -210,6 +229,7 @@ section i
 {
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
 }
 #titre_ppl i
 {
@@ -225,7 +245,7 @@ section i
 .ppl_group
 {
     display: flex;
-    margin-top: 20px;
+    margin-bottom: 30px;
     border-radius: 20px 0px 0px 20px;
     box-shadow: -1px 5px 10px rgba(0,0,0,0.4);
     border: 3px solid white;
@@ -249,14 +269,14 @@ section i
 {
     padding-left: 20px;
 }
-#activites div
-{
 
-
-}
 #activites img
 {
     border-radius: 20px 20px 0px 0px;
+}
+.group
+{
+    justify-content: space-between;
 }
 .group,#port,#calanques
 {
@@ -272,7 +292,7 @@ section i
 }
 #port img,#calanques img
 {
-    width: 220px;
+    width: 210px;
     height: 280px;
 }
 #pomegues,#garde
@@ -288,26 +308,26 @@ section i
 
 #pomegues img
 {
-    width: 200px;
+    width: 210px;
     height: 110px;
 
 }
 
 #frioul img
 {
-    width: 200px;
+    width: 210px;
     height: 90px;
 
 }
 #garde img
 {
-    width: 200px;
+    width: 210px;
     height:90px;
 
 }
 #longchamp img
 {
-    width: 200px;
+    width: 210px;
     height: 110px;
 
 }

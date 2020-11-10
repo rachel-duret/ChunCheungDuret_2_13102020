@@ -12,6 +12,7 @@
 </head>
 <body>
 <div id="bloc_page">
+
     <header>
         <div id="menu">
             <div id="logo">
@@ -25,18 +26,16 @@
                 </ul>
             </nav>
         </div>
-        <h2>Trouver votre hébergement pour des vacances de rêve</h2>
-        <p>En plein centre ville ou pleine nature</p>
     </header>
+    <h2>Trouver votre hébergement pour des vacances de rêve</h2>
+    <p>En plein centre ville ou pleine nature</p>
+
     <div id="banniere">
         <form method="post">
             <div id="rechercher">
                 <i class="fas fa-map-marker-alt"></i>
-
-                <select>
-                    <option value="ville" id="ville">Marseille,France</option>
-                </select>
-                <input type="submit" value="Rechercher">
+                <input type="text" placeholder="Marseille,France" id="placeholder">
+                <input type="submit" value="Rechercher" id="btn">
                 <i class="fas fa-search"></i>
             </div>
         </form>

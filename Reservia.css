@@ -21,11 +21,12 @@ a
 {
     color: #181818;
     text-decoration: none;
-
 }
 a:hover
 {
     color: #0000cc;
+    text-decoration: overline;
+
 }
 #logo img
 {
@@ -36,7 +37,9 @@ a:hover
 {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
+
 nav
 {
     margin-left: auto;
@@ -51,11 +54,19 @@ nav ul
 
 nav ul li
 {
-    padding-left: 40px;
-    list-style-type: none;
+    padding-right: 40px;
+  list-style-type: none;
     font-weight: bolder;
 }
-header p
+nav a:link
+{
+    color: #0065FC;
+}
+nav a:visited
+{
+    text-decoration: underline;
+}
+ p
 {
     font-size: 0.8em;
 }
@@ -89,13 +100,15 @@ header p
     border-radius:10px;
     visibility: hidden;
 }
-#rechercher select
+#placeholder
 {
     border:1px solid #F2F2F2;
     width: auto;
+    font-weight: bolder;
+    padding-left: 20px;
 
 }
-#rechercher input
+#btn
 {
     border: 1px solid #0065FC;
     border-radius: 0 50px 50px 0;
@@ -182,7 +195,7 @@ header p
 #hbg_imgs div
 {
 
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 20px 20px 20px;
     margin-bottom: 20px;
     background-color: white;
 }
@@ -265,57 +278,56 @@ section i
     display: flex;
     flex-direction: row;
 }
-#activites h3
+#activites a h3
 {
     padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 0.8em;
+    font-weight: bolder;
+
 }
 
 #activites img
 {
     border-radius: 20px 20px 0px 0px;
 }
-.group
-{
-    justify-content: space-between;
-}
+
 .group,#port,#calanques
 {
     display: flex;
     flex-direction:row;
     flex-wrap: nowrap;
-    margin-right: 40px;
+    margin-right: 20px;
+
 }
 #port,#pomegues,#frioul,#calanques,#garde,#longchamp
 {
-    border-radius:20px 20px 0px 0px ;
+    border-radius:20px 20px 20px 20px ;
     box-shadow: -1px 5px 10px rgba(0,0,0,0.4);
 }
 #port img,#calanques img
 {
-    width: 210px;
+    width: 220px;
     height: 280px;
 }
-#pomegues,#garde
-{
-    padding-bottom: 10px;
-}
+
 #frioul,#longchamp
 {
-   margin-top:20px ;
-    padding-bottom: 10px;
+
     vertical-align: bottom;
+    margin-top:40px;
 }
 
 #pomegues img
 {
-    width: 210px;
+    width: 220px;
     height: 110px;
 
 }
 
 #frioul img
 {
-    width: 210px;
+    width: 220px;
     height: 90px;
 
 }
@@ -348,25 +360,15 @@ footer div
     #bloc_page
     {
         width: auto;
+        height: auto;
     }
 
     body
     {
-        font-size: 1.2em;
         padding: 20px;
-    }
-    #menu
-    {
-        flex-wrap: wrap;
-    }
-    nav
-    {
-        margin-right: auto;
     }
     nav ul
     {
-        flex-direction:row-reverse;
-        font-size: 1.2em;
         flex-wrap: wrap;
     }
     h2
@@ -375,9 +377,7 @@ footer div
     }
     #filtres
     {
-        width: auto;
-        flex-direction: column;
-        padding-top: 10px;
+        flex-wrap: wrap;
     }
     #categorie
     {
@@ -392,12 +392,9 @@ footer div
     {
         width: 100%;
         flex-wrap: wrap;
-        margin-left: auto;
+        justify-content: center;
     }
-    #hebergements img
-    {
-        text-align: center;
-    }
+
     #populaires
     {
         width:auto;
@@ -409,31 +406,30 @@ footer div
     #ppl_imgs div
     {
         align-items: center;
-        width:100%;
+        width:auto;
         margin-right: 20px;
     }
     #ppl_imgs img
     {
-        width:100%;
+        width:auto;
     }
+
     #activites
     {
         width:100%;
         flex-direction: column;
-        margin:auto;
     }
     .group
     {
         margin-bottom: 20px;
-    }
-    #activites img
-    {
-        width: 100%;
+        justify-content: center;
     }
 
     footer
     {
         flex-direction: column;
+        width: auto;
+        height: auto;
     }
 
 }
@@ -443,21 +439,23 @@ footer div
     {
         width: auto;
     }
-    nav
+    header
     {
-        width: auto;
+        display: flex;
+        flex-wrap: wrap;
     }
     nav ul
     {
         display: flex;
         flex-wrap: wrap;
-        font-size: 1.2em;
+
     }
+
     h2
     {
         overflow-x: scroll;
     }
-    #banniere input
+    #btn
     {
         display: none;
     }
@@ -467,9 +465,7 @@ footer div
     }
     #filtres
     {
-        width: auto;
-        flex-direction: column;
-        padding-top: 10px;
+        flex-wrap: wrap;
     }
     #categorie
     {
@@ -482,7 +478,7 @@ footer div
     }
     #hebergements
     {
-        width: auto;
+        width: 100%;
         background-color: white;
     }
     .imgs_container

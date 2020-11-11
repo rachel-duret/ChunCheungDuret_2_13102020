@@ -86,6 +86,7 @@ nav a:visited
     padding-left: 10px;
     background-color:#F2F2F2;
     border-radius: 20px 0px 0px 20px;
+    justify-content: center;
 }
 .fa-search
 {
@@ -158,6 +159,7 @@ nav a:visited
     border-radius: 50%;
     padding-top: 10px;
     padding-left: 10px;
+    justify-content: center;
 }
 #container {
     display: flex;
@@ -430,6 +432,7 @@ footer div
         flex-direction: column;
         width: auto;
         height: auto;
+
     }
 
 }
@@ -518,6 +521,7 @@ footer div
         width: auto;
         flex-direction: column;
         margin: 0px 20px;
+        justify-content: center;
     }
     .group
     {
@@ -534,6 +538,7 @@ footer div
        box-shadow:-1px 5px 10px rgba(0,0,0,0.4) ;
         margin-top: 30px;
         width:100%;
+        justify-content: center;
     }
     footer
     {

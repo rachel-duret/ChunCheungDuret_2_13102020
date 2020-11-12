@@ -58,6 +58,21 @@ nav ul li
   list-style-type: none;
     font-weight: bolder;
 }
+#logo2
+{
+    width: 120px;
+    height: 60px;
+}
+#menu2 p
+{
+    padding-left: 40px;
+    font-size: 1.2em;
+}
+#menu2
+{
+    display: none;
+
+}
 nav a:link
 {
     color: #0065FC;
@@ -442,21 +457,36 @@ footer div
     {
         width: auto;
     }
-    header
+    #menu
+    {
+        display: none;
+
+    }
+
+    #menu2
     {
         display: flex;
         flex-wrap: wrap;
     }
-    nav ul
+    #menu2 a:hover
     {
-        display: flex;
-        flex-wrap: wrap;
-
+        text-decoration: underline;
+        color: #0065FC;
+    }
+    #menu2 a:link
+    {
+        color: #0065FC;
+    }
+    #menu2 a:visited
+    {
+        text-decoration: underline;
+        color: #706b64;
     }
 
     h2
     {
         overflow-x: scroll;
+        font-size: 1.5em;
     }
     #btn
     {

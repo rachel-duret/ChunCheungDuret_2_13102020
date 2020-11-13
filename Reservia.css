@@ -197,6 +197,10 @@ nav a:visited
 {
     padding: 20px 0px 0px 20px;
 }
+.for414px
+{
+    display: none;
+}
 #hbg_imgs
 {
     display: flex;
@@ -294,6 +298,10 @@ section i
 {
     display: flex;
     flex-direction: row;
+}
+#activites-for414px
+{
+    display: none;
 }
 #activites a h3
 {
@@ -511,8 +519,16 @@ footer div
     }
     #hebergements
     {
-        width: 100%;
+        width: auto;
         background-color: white;
+    }
+    .for414-980px
+    {
+        display: none;
+    }
+    .for414px
+    {
+        display: block;
     }
     .imgs_container
     {
@@ -524,7 +540,6 @@ footer div
     #hbg_imgs img
     {
         width: 100%;
-        height: 120px;
         border: 3px solid white;
     }
     #populaires
@@ -548,27 +563,33 @@ footer div
     }
     #activites
     {
-        width: auto;
+        display: none;
+    }
+    #activites-for414px
+    {
+        display: flex;
         flex-direction: column;
+        width: auto;
         margin: 0px 20px;
         justify-content: center;
     }
-    .group
+    #activites-for414px h3
     {
-        flex-direction: column;
+        padding-left: 20px;
     }
-    #activites img
+    #activites-for414px img
     {
         width: 100%;
-        height: 120px;
         margin-left: auto;
+        border-radius: 20px 20px 0px 0px;
     }
-    #port,#pomegues,#frioul,#calanques,#garde,#longchamp
+    #port-for414px,#pomegues-for414px,#frioul-for414px,#calanques-for414px,#garde-for414px,#longchamp-for414px
     {
        box-shadow:-1px 5px 10px rgba(0,0,0,0.4) ;
         margin-top: 30px;
         width:100%;
         justify-content: center;
+        border-radius:20px 20px 20px 20px ;
     }
     footer
     {

@@ -183,6 +183,7 @@ nav a:visited
 #container h3
 {
     font-weight: bolder;
+    justify-content: center;
 }
 
 #hebergements
@@ -270,11 +271,14 @@ section i
     padding-right: 30px;
     padding-top: 20px;
 }
+.fa-chart-line
+{
+    color: #181818;
+}
 #ppl_imgs
 {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 30px;
 }
 .ppl_group
 {
@@ -287,6 +291,7 @@ section i
     background-color: white;
     padding-right: 30px;
 }
+
 #ppl_imgs img
 {
     width: 120px;
@@ -298,6 +303,7 @@ section i
 {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 #activites-for414px
 {

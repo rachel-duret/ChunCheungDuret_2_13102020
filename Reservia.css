@@ -94,14 +94,15 @@ nav a:visited
 .fa-map-marker-alt
 {
     border: 1px solid #F2F2F2;
-    border-radius: 50%;
     width: 30px;
     height: 30px;
     padding-top: 10px;
-    padding-left: 10px;
+    padding-left: 15px;
     background-color:#F2F2F2;
-    border-radius: 20px 0px 0px 20px;
+    border-radius: 10px 0px 0px 10px;
     justify-content: center;
+    position: relative;
+    left: 10px;
 }
 .fa-search
 {
@@ -127,7 +128,7 @@ nav a:visited
 #btn
 {
     border: 1px solid #0065FC;
-    border-radius: 0 50px 50px 0;
+    border-radius: 0 10px 10px 0;
     background-color:#0065FC ;
     color: #DEEBFF;
 
@@ -348,7 +349,6 @@ section i
     vertical-align: bottom;
     margin-top:40px;
 }
-
 #pomegues img
 {
     width: 220px;
